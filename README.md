@@ -22,3 +22,5 @@ Preprocessing:
 3. Standardized default column to be an 0 or 1
 4. Generated pair plot for the dataset
 5. Normalized dataset with MinMax scalar
+
+**Model 1***
