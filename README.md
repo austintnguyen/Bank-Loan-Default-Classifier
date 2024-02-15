@@ -25,3 +25,8 @@ Preprocessing:
 
 **Model 1**
 
+Fitting Graph:
+
+Next 2 expected models:
+
+Conclusion:
