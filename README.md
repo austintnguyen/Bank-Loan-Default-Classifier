@@ -23,4 +23,5 @@ Preprocessing:
 4. Generated pair plot for the dataset
 5. Normalized dataset with MinMax scalar
 
-**Model 1***
+**Model 1**
+
