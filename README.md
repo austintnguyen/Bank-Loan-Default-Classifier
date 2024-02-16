@@ -23,8 +23,8 @@ Summary: The Bankloan dataset was initially already relatively clean, with a sel
 
 **Model 1**
 
-Fitting Graph:
+Fitting Graph: Our model is outside the range of the ideal range and towards the underfitting section of the fitting graph
 
-Next 2 expected models:
+Next 2 expected models: Deep Neural Network, Decision Tree
 
-Conclusion:
+Conclusion: Our model has a poor recall for predicting whether an individual defaults (does not pay off loan). The precision and recall for predicting whether an individual doesn't default (pays off loan) are 81% and 94% respectively. The testing MSE is relatively close to the training MSE but is slightly greater. Therefore, we believe our model is underfitted.
