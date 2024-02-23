@@ -33,6 +33,6 @@ Our model is outside the scope of the ideal range and leaning towards the underf
 Next 2 expected models:
 
 1. We would like to proceed to use a Deep Neural Network because we believe it would better identify complex patterns in the data that a basic logistic regression may not be able to. Specifically, since the logistic regression model seems to be underfitted, it would likely be improved by a Deep Neural Network. DNNs are also good at handling many features like we have in this dataset.
-2.
+2. We plan to use a SVM for our third model. SVMs are classifiers, so they are compatible with our dataset. Further, if our data is easily separable, an SVM would be highly effective and would yield very high accuracy. We don't know for sure whether our data is separable, but it is worth giving it a shot.
 
 Conclusion: Our model has a poor recall for predicting whether an individual defaults (does not pay off loan). The precision and recall for predicting whether an individual doesn't default (pays off loan) are 81% and 94% respectively. The testing MSE is relatively close to the training MSE but is slightly greater. Therefore, we believe our model is underfitted.
