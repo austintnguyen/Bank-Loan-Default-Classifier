@@ -1,5 +1,7 @@
 # CSE151A_Project
 
+https://colab.research.google.com/github/austintnguyen/CSE151A_Project/blob/main/CSE151A_Project.ipynb#scrollTo=KrsjeJ04Ji1y
+
 **Feature information:**
 
 Age: Age in years  
