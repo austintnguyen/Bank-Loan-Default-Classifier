@@ -28,6 +28,7 @@ Summary: The Bankloan dataset was initially already relatively clean, with a sel
 Fitting Graph: Our model is outside the range of the ideal range and towards the underfitting section of the fitting graph
 
 ![grafik](https://github.com/austintnguyen/CSE151A_Project/assets/74422644/bf36c227-a93e-4252-b274-559cb981f009)
+Our model is outside the scope of the ideal range and leaning towards the underfitting section of the fitting graph. Our training MSE is 0.204 and our testing MSE is 0.216 which aligns with the graph as our testing MSE > training MSE. They are almost the same, which indicates that there is no overfitting. However, recall is low for data points where the loantaker defaulted. This holds true for both train and test data, which indicates that the model is not perfectly fitted. Therefore, the model seems to be slightly underfitted.
 
 Next 2 expected models:
 
