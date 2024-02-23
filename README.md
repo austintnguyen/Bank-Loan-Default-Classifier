@@ -25,6 +25,9 @@ Summary: The Bankloan dataset was initially already relatively clean, with a sel
 
 Fitting Graph: Our model is outside the range of the ideal range and towards the underfitting section of the fitting graph
 
-Next 2 expected models: Deep Neural Network, Decision Tree
+Next 2 expected models:
+
+1. We would like to proceed to use a Deep Neural Network because we believe it would better identify complex patterns in the data that a basic logistic regression may not be able to. Specifically, since the logistic regression model seems to be underfitted, it would likely be improved by a Deep Neural Network. DNNs are also good at handling many features like we have in this dataset.
+2.
 
 Conclusion: Our model has a poor recall for predicting whether an individual defaults (does not pay off loan). The precision and recall for predicting whether an individual doesn't default (pays off loan) are 81% and 94% respectively. The testing MSE is relatively close to the training MSE but is slightly greater. Therefore, we believe our model is underfitted.
