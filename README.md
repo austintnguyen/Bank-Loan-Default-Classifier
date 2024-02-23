@@ -21,9 +21,11 @@ Summary: The Bankloan dataset was initially already relatively clean, with a sel
 4. Generated pair plot for the dataset
 5. Normalized dataset with MinMax scalar
 
-**Model 1**
+## Model 1
 
 Fitting Graph: Our model is outside the range of the ideal range and towards the underfitting section of the fitting graph
+
+![grafik](https://github.com/austintnguyen/CSE151A_Project/assets/74422644/bf36c227-a93e-4252-b274-559cb981f009)
 
 Next 2 expected models:
 
