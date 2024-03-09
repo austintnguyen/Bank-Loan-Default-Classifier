@@ -44,7 +44,7 @@ We kept the same dataset and used the same features to train our model. Since ou
 When employing MSE, our testing error was 0.20, whereas our training error was 0.17. When evaluating the error with log loss, the testing error was 7.2 and the training error was 6.34. In either scenarios, the training error was slightly lower than the testing error.
 
 ![image](image.png)
-Compared to our first model, testing and training error are lower, indicating that the model is better fitted. 
+Compared to our first model, testing and training error are lower, indicating that the model is better fitted. Additionally, the difference between testing and training error increased. Therefore the model is likely more complex and in the ideal range on the fitting graph.
 
 We performed hyperparameter tuning on this model, tuning on the number of units for each layer, the activation function for each layer, and the learning rate. We chose to use 4 hidden layers and tuned between 8 and 64 units for each layer, with increments of 8. The tuner returned the best model as one with 16, 8, 64, 56 layers for the 4 hidden layers, and tanh as the activation function for all of them. The optimal learning rate was found to be 0.002. We trained and tested this model and got an accuracy of 0.8 for the testing data, an improvement over our previous model.
 
