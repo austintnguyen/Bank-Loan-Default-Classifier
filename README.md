@@ -95,6 +95,7 @@ SVM with kernel set to Linear, with oversampling:
 ![Image](Images/unnamed%20(9).png)   
 With this model, we have a testing accuracy of .71 with a testing recall of 0.69 for our 1 class. This is our best model in our opinion, because it has a relatively high accuracy with improved recall compared to our other models.
 
+![Image](https://github.com/austintnguyen/CSE151A_Project/assets/74422644/bf36c227-a93e-4252-b274-559cb981f009)
 The testing MSE for this model was 0.288 and our training MSE was 0.242. This model has slightly higher MSE models compared to our previous two models, which implies that the SVM model does not have high enough complexity to reduce our error compared to our other models. We believe that lower training than testing MSE implies slight underfitting.
 
 SVM with kernel set to RBF, with oversampling:
