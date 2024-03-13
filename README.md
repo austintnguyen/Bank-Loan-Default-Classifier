@@ -6,7 +6,7 @@ In today’s financial landscape, the usage of borrowing and loaning money as a 
     
 ### [Data Exploration](https://colab.research.google.com/github/austintnguyen/CSE151A_Project/blob/main/CSE151A_Project.ipynb?authuser=7#scrollTo=-cBMQfNM-hhX)
 
-The Bankloan dataset was initially already relatively clean, with a select amount of NaN values that didn't heavily impact the dataset size which we subsequently dropped and cleaned. We also found an unrealistic outlier in the age column which we removed. We plotted our exploratory information on a pair plot, in which we gave distinct colors to defaulting being blue and vice versa. Furthermore, we made a heatmap to find statistical comparisons of the correlation of each column variable.
+The Bankloan dataset was initially already relatively clean, with a select amount of NaN values that didn't heavily impact the dataset size which we subsequently dropped and cleaned. We also found an unrealistic outlier in the age column which we removed. We plotted our exploratory information on a pair plot, in which we gave distinct colors to defaulting being orange and not defaulting being blue. Furthermore, we made a heatmap to find statistical comparisons of the correlation of each column variable.
 
 Here is the feature information in our dataset:
 
@@ -31,7 +31,7 @@ Here is a pairplot that shows the relationships between all of the different col
 ![grafik](Images/unnamed%20(1).png)
 
 
-These pairplots helped us understand more about certain relationships that could help with feature selection since the blue represents a default of 0 and the orange represents a default of 1. For example, there seems to be a clear positive correlation between debtinc and othdebt, and there seems like there’s a line we can draw there that separates the blue and orange points.
+These pairplots helped us understand more about certain relationships that could help with feature selection since the blue represents default=0 and the orange represents default=1. For example, there seems to be a clear positive correlation between debtinc and othdebt, and there seems like there’s a line we can draw there that separates the blue and orange points.
 
 
 Here is a heatmap that goes further in detail about the correlations:
