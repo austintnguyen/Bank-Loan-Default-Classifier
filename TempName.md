@@ -81,15 +81,19 @@ Compared to our first model, testing and training errors are lower, indicating t
 
 ### Model 3 SVM
 SVM with kernel set to Linear, without oversampling:
+
 ![Image](Images/unnamed%20(7).png)   
+
 With this model, we have a testing accuracy of .77 with a testing recall of 0.28 for our 1 class.
 
 SVM with kernel set to RBH, without oversampling:
 
-![Image](Images/unnamed%20(8).png)   
+![Image](Images/unnamed%20(8).png)  
+
 With this model, we have a testing accuracy of .79 with a testing recall of 0.41 for our 1 class.
 
 SVM with kernel set to Linear, with oversampling:
+
 ![Image](Images/unnamed%20(9).png)   
 With this model, we have a testing accuracy of .71 with a testing recall of 0.69 for our 1 class. This is our best model in our opinion, because it has a relatively high accuracy with improved recall compared to our other models.
 
@@ -97,6 +101,7 @@ With this model, we have a testing accuracy of .71 with a testing recall of 0.69
 The testing MSE for this model was 0.288 and our training MSE was 0.242. We believe that this small change between the training and testing MSEs implies that our model was in the ideal range on the fitting graph. This model has slightly higher MSE models compared to our previous two models, which implies that the SVM model does not have high enough complexity to reduce our error compared to our other models.
 
 SVM with kernel set to RBF, with oversampling:
+
 ![Image](Images/unnamed%20(10).png)
 
 With this model, we have a testing accuracy of .71 with a testing recall of 0.62 for our 1 class.
