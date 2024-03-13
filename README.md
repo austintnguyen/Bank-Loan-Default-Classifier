@@ -11,7 +11,7 @@ The Bankloan dataset was initially already relatively clean, with a select amoun
 Here is the feature information in our dataset:
 
 - Age: Age in years
-- Ed: 1-Did not complete high school 2-High school degree 3-Some college degree 5-Prost-undergraduate degree
+- Ed: 1-Did not complete high school 2-High school degree 3-Some college degree 5-Post-undergraduate degree
 - Employ: Years with current employer
 - Address: Years at current address
 - Income: Household income in thousands
