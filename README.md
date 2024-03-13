@@ -147,4 +147,6 @@ Sumukh Murthy: Model 2 Co-Lead: Participated in all but one coding session, incl
 
 Ishan Banerjee: Model 3 Co-Lead: Edited and curated parts of the write up for  model 3 and the final readme. Added the results of the pre-processing section inside the final readme. Was part of all the joint hacking sessions, and contributed to the code, handling debugging issues and optimizing the performance. 
 
-Vivin Vinil: Model 2 Co-Lead: Was part of all joint hacking sessions throughout the quarter. Coded parts of Model 1, 2 and 3 with a bigger focus on Model 2 (carried out tuning and analysis). Organized resources for preprocessing from class notebooks and suggested bank loans as an interesting topic. Edited and wrote parts of all 3 model writeups, wrote parts of the conclusion and results sections of the Final Write up. 
+Vivin Vinil: Model 2 Co-Lead: Was part of all joint hacking sessions throughout the quarter. Coded parts of Model 1, 2 and 3 with a bigger focus on Model 2 (carried out tuning and analysis). Organized resources for preprocessing from class notebooks and suggested bank loans as an interesting topic. Edited and wrote parts of all 3 model writeups, wrote parts of the conclusion and results sections of the Final Write up.
+
+Oskar Kraak: Interpretation/Evaluation Lead: Participated in all coding sessions. Summarized sessions for absent members. Interpreted results and evaluated all 3 models. Wrote the corresponding sections in the 3 model writeups and the final writeup. Wrote the ethical discussion in the conclusion section of the final writeup.
